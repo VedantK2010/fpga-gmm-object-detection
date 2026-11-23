@@ -1,0 +1,40 @@
+﻿# Paper PDF is copyrighted (IEEE); keep it local
+paper/
+
+# Datasets and video
+data/
+*.avi
+*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Vivado generated output (rebuild from vivado/create_project.tcl instead)
+vivado/output/
+vivado/*_proj/
+.Xil/
+*.jou
+*.log
+*.str
+*.cache/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.hw/
+*.xpr
+*.wdb
+xsim.dir/
+
+# Simulation output
+*.vcd
+*.vvp
+
+# LaTeX build files
+*.aux
+*.out
+*.toc
+
+# Simulation scratch
+sim/out/

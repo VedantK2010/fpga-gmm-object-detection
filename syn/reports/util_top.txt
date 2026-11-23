@@ -1,0 +1,35 @@
+
+10. Printing statistics.
+
+=== mod_top ===
+
+   Number of wires:               3537
+   Number of wire bits:          20829
+   Number of public wires:         725
+   Number of public wire bits:    7885
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8159
+     BUFG                            1
+     CARRY4                        308
+     DSP48E1                         9
+     FDRE                         2121
+     FDSE                          657
+     IBUF                          235
+     INV                            83
+     LUT1                            2
+     LUT2                         1122
+     LUT3                          523
+     LUT4                          373
+     LUT5                          510
+     LUT6                         1757
+     MUXF7                          84
+     MUXF8                          11
+     OBUF                          201
+     RAM32M                         10
+     RAM64M                        128
+     RAMB18E1                        1
+     RAMB36E1                        3
+     SRL16E                         20
+

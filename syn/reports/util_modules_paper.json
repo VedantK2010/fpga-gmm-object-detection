@@ -1,0 +1,58 @@
+{
+ "$paramod$1480976b79857e2c4e4d6448b35a52222156ebf7\\ccl_single_pass": {
+  "lut": 2923,
+  "lutram": 520,
+  "ff": 1042,
+  "dsp": 0,
+  "bram18": 1
+ },
+ "$paramod$58b6eceed8edb669c88dc9065bf04e6e2ac2ce13\\bin_morph3x3": {
+  "lut": 149,
+  "lutram": 128,
+  "ff": 63,
+  "dsp": 0,
+  "bram18": 0
+ },
+ "$paramod$7a350088192ae67b024c965031ac20b4a3b3efbe\\mod_axil_regs": {
+  "lut": 151,
+  "lutram": 0,
+  "ff": 156,
+  "dsp": 0,
+  "bram18": 0
+ },
+ "$paramod$a2e61ef7efc87f972fc1a65fa38069e7627bcef9\\gmm_core": {
+  "lut": 1555,
+  "lutram": 20,
+  "ff": 812,
+  "dsp": 12,
+  "bram18": 0
+ },
+ "$paramod$b78f53fe489818d6030eaedeaaf68c437ffdbe64\\bin_morph3x3": {
+  "lut": 150,
+  "lutram": 128,
+  "ff": 63,
+  "dsp": 0,
+  "bram18": 0
+ },
+ "$paramod\\morph_chain\\MAX_W=s32'00000000000000000000010000000000": {
+  "lut": 14,
+  "lutram": 0,
+  "ff": 0,
+  "dsp": 0,
+  "bram18": 0
+ },
+ "mod_top": {
+  "lut": 52,
+  "lutram": 0,
+  "ff": 172,
+  "dsp": 0,
+  "bram18": 0
+ },
+ "design hierarchy": {
+  "lut": 5293,
+  "lutram": 1052,
+  "ff": 2434,
+  "dsp": 12,
+  "bram18": 1
+ }
+}

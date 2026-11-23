@@ -1,0 +1,221 @@
+
+10. Printing statistics.
+
+=== $paramod$1480976b79857e2c4e4d6448b35a52222156ebf7\ccl_single_pass ===
+
+   Number of wires:               1361
+   Number of wire bits:           6193
+   Number of public wires:         206
+   Number of public wire bits:    1566
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3139
+     CARRY4                         54
+     FDRE                          708
+     FDSE                          452
+     INV                            28
+     LUT1                            2
+     LUT2                          251
+     LUT3                          180
+     LUT4                          246
+     LUT5                           99
+     LUT6                         1020
+     MUXF7                          75
+     MUXF8                          10
+     RAM32M                         10
+     RAMB18E1                        1
+     RAMB36E1                        3
+
+=== $paramod$44c8dc0c28d282a326b65cda767785c5ec1b9a1d\gmm_core ===
+
+   Number of wires:               1146
+   Number of wire bits:           9598
+   Number of public wires:         236
+   Number of public wire bits:    4266
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2999
+     CARRY4                        181
+     DSP48E1                         9
+     FDRE                          871
+     FDSE                          164
+     INV                            24
+     LUT1                            1
+     LUT2                          553
+     LUT3                          256
+     LUT4                           86
+     LUT5                          396
+     LUT6                          411
+     MUXF7                          19
+     MUXF8                           8
+     SRL16E                         20
+
+=== $paramod$58b6eceed8edb669c88dc9065bf04e6e2ac2ce13\bin_morph3x3 ===
+
+   Number of wires:                225
+   Number of wire bits:            891
+   Number of public wires:          31
+   Number of public wire bits:     107
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                313
+     CARRY4                         22
+     FDRE                           63
+     INV                            25
+     LUT2                           54
+     LUT3                            7
+     LUT4                           21
+     LUT5                           16
+     LUT6                           51
+     MUXF7                          15
+     MUXF8                           7
+     RAM64M                         32
+
+=== $paramod$b78f53fe489818d6030eaedeaaf68c437ffdbe64\bin_morph3x3 ===
+
+   Number of wires:                223
+   Number of wire bits:            885
+   Number of public wires:          31
+   Number of public wire bits:     107
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                314
+     CARRY4                         22
+     FDRE                           63
+     INV                            25
+     LUT2                           56
+     LUT3                            5
+     LUT4                           20
+     LUT5                           19
+     LUT6                           50
+     MUXF7                          15
+     MUXF8                           7
+     RAM64M                         32
+
+=== $paramod$c59258754030b901260da6ed7c8041a701631054\mod_axil_regs ===
+
+   Number of wires:                156
+   Number of wire bits:            638
+   Number of public wires:          45
+   Number of public wire bits:     383
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                355
+     FDRE                          115
+     FDSE                           41
+     LUT1                            6
+     LUT2                           21
+     LUT3                           22
+     LUT4                           27
+     LUT5                           19
+     LUT6                           63
+     MUXF7                          33
+     MUXF8                           8
+
+=== $paramod\axis_skid\W=s32'00000000000000000000000000000001 ===
+
+   Number of wires:                 19
+   Number of wire bits:             19
+   Number of public wires:          12
+   Number of public wire bits:      12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     FDRE                            4
+     INV                             2
+     LUT4                            3
+     LUT5                            2
+     MUXF7                           1
+
+=== $paramod\morph_chain\MAX_W=s32'00000000000000000000010000000000 ===
+
+   Number of wires:                 39
+   Number of wire bits:             75
+   Number of public wires:          31
+   Number of public wire bits:      67
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 18
+     $paramod$58b6eceed8edb669c88dc9065bf04e6e2ac2ce13\bin_morph3x3      2
+     $paramod$b78f53fe489818d6030eaedeaaf68c437ffdbe64\bin_morph3x3      2
+     LUT2                            6
+     LUT3                            2
+     LUT4                            2
+     LUT5                            4
+
+=== mod_top ===
+
+   Number of wires:                199
+   Number of wire bits:           1597
+   Number of public wires:          89
+   Number of public wire bits:     983
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                719
+     $paramod$1480976b79857e2c4e4d6448b35a52222156ebf7\ccl_single_pass      1
+     $paramod$44c8dc0c28d282a326b65cda767785c5ec1b9a1d\gmm_core      1
+     $paramod$c59258754030b901260da6ed7c8041a701631054\mod_axil_regs      1
+     $paramod\axis_skid\W=s32'00000000000000000000000000000001      1
+     $paramod\morph_chain\MAX_W=s32'00000000000000000000010000000000      1
+     BUFG                            1
+     CARRY4                         12
+     FDRE                          172
+     IBUF                          235
+     INV                            23
+     LUT2                            8
+     LUT4                           29
+     LUT5                            1
+     LUT6                           14
+     MUXF7                          12
+     MUXF8                           6
+     OBUF                          201
+
+=== design hierarchy ===
+
+   mod_top                           1
+     $paramod$1480976b79857e2c4e4d6448b35a52222156ebf7\ccl_single_pass      1
+     $paramod$44c8dc0c28d282a326b65cda767785c5ec1b9a1d\gmm_core      1
+     $paramod$c59258754030b901260da6ed7c8041a701631054\mod_axil_regs      1
+     $paramod\axis_skid\W=s32'00000000000000000000000000000001      1
+     $paramod\morph_chain\MAX_W=s32'00000000000000000000010000000000      1
+       $paramod$58b6eceed8edb669c88dc9065bf04e6e2ac2ce13\bin_morph3x3      2
+       $paramod$b78f53fe489818d6030eaedeaaf68c437ffdbe64\bin_morph3x3      2
+
+   Number of wires:               3816
+   Number of wire bits:          21672
+   Number of public wires:         743
+   Number of public wire bits:    7705
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8487
+     BUFG                            1
+     CARRY4                        335
+     DSP48E1                         9
+     FDRE                         2122
+     FDSE                          657
+     IBUF                          235
+     INV                           177
+     LUT1                            9
+     LUT2                         1059
+     LUT3                          484
+     LUT4                          475
+     LUT5                          591
+     LUT6                         1710
+     MUXF7                         200
+     MUXF8                          60
+     OBUF                          201
+     RAM32M                         10
+     RAM64M                        128
+     RAMB18E1                        1
+     RAMB36E1                        3
+     SRL16E                         20
+

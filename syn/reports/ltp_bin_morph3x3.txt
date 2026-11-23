@@ -1,0 +1,12 @@
+
+14. Executing LTP pass (find longest path).
+
+Longest topological path in bin_morph3x3 (length=6):
+    0: \width [5]
+    1: $abc$37498$new_n3918_ (via $abc$37498$auto$blifparse.cc:525:parse_blif$38192)
+    2: $abc$37498$new_n3917_ (via $abc$37498$auto$blifparse.cc:525:parse_blif$38191)
+    3: $abc$37498$new_n3915_ (via $abc$37498$auto$blifparse.cc:525:parse_blif$38189)
+    4: $abc$37498$new_n3909_ (via $abc$37498$auto$blifparse.cc:525:parse_blif$38183)
+    5: $abc$37498$new_n3908_ (via $abc$37498$auto$blifparse.cc:525:parse_blif$38182)
+    6: \res (via $abc$37498$auto$blifparse.cc:525:parse_blif$37840)
+   ff: \out_bit (via $auto$ff.cc:266:slice$24456)

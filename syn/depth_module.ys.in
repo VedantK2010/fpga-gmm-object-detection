@@ -1,0 +1,8 @@
+read_verilog -sv ../rtl/gmm_core.v ../rtl/bin_morph3x3.v ../rtl/morph_chain.v ../rtl/axis_skid.v ../rtl/ccl_single_pass.v ../rtl/mod_axil_regs.v ../rtl/mod_top.v
+hierarchy -check -top TOP
+synth -flatten -top TOP
+memory_map
+opt -full
+abc -lut 6
+opt_clean
+tee -o reports/ltp_TOP.txt ltp -noff

@@ -1,0 +1,9 @@
+# Logic depth estimate: generic synthesis, 6-LUT mapping, longest FF-to-FF path
+read_verilog -sv ../rtl/gmm_core.v ../rtl/bin_morph3x3.v ../rtl/morph_chain.v ../rtl/axis_skid.v ../rtl/ccl_single_pass.v ../rtl/mod_axil_regs.v ../rtl/mod_top.v
+hierarchy -check -top mod_top
+synth -flatten -top mod_top
+memory_map
+opt -full
+abc -lut 6
+opt_clean
+tee -o reports/ltp_lut6.txt ltp -noff

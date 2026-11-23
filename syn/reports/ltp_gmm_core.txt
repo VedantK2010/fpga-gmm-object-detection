@@ -1,0 +1,19 @@
+
+14. Executing LTP pass (find longest path).
+
+Longest topological path in gmm_core (length=13):
+    0: \s4_dvs[2] [2]
+    1: $abc$45714$new_n2483_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46416)
+    2: $abc$45714$new_n2482_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46415)
+    3: $abc$45714$new_n2481_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46414)
+    4: $abc$45714$new_n2480_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46413)
+    5: $abc$45714$new_n2479_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46412)
+    6: $abc$45714$new_n2501_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46434)
+    7: $abc$45714$new_n2500_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46433)
+    8: $abc$45714$new_n2515_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46440)
+    9: $abc$45714$new_n2514_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46439)
+   10: $abc$45714$new_n2513_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46438)
+   11: $abc$45714$new_n2512_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$46437)
+   12: $abc$45714$new_n5495_ (via $abc$45714$auto$blifparse.cc:525:parse_blif$49315)
+   13: \g_s5[2].v_o [0] (via $abc$45714$auto$blifparse.cc:525:parse_blif$49316)
+   ff: \s5_par [108] (via $auto$ff.cc:266:slice$8215)

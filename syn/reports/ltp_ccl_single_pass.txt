@@ -1,0 +1,18 @@
+
+14. Executing LTP pass (find longest path).
+
+Longest topological path in ccl_single_pass (length=12):
+    0: \y0
+    1: $abc$135122$new_n25035_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140371)
+    2: $abc$135122$new_n25034_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140370)
+    3: $abc$135122$new_n25044_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140380)
+    4: $abc$135122$new_n25043_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140379)
+    5: $abc$135122$new_n25040_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140376)
+    6: $abc$135122$new_n25028_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140364)
+    7: $abc$135122$new_n25027_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140363)
+    8: $abc$135122$new_n25026_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140362)
+    9: $abc$135122$new_n25795_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$140824)
+   10: \cur [2] (via $abc$135122$auto$blifparse.cc:525:parse_blif$140823)
+   11: $abc$135122$new_n30711_ (via $abc$135122$auto$blifparse.cc:525:parse_blif$145481)
+   12: $abc$135122$abc$90430$and$../rtl/ccl_single_pass.v:145$687_Y (via $abc$135122$auto$blifparse.cc:525:parse_blif$145480)
+   ff: \b_we (via $auto$ff.cc:266:slice$60682)

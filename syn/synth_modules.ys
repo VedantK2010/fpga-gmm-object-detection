@@ -1,0 +1,5 @@
+# Per-module resource breakdown (hierarchy kept)
+read_verilog -sv ../rtl/gmm_core.v ../rtl/bin_morph3x3.v ../rtl/morph_chain.v ../rtl/axis_skid.v ../rtl/ccl_single_pass.v ../rtl/mod_axil_regs.v ../rtl/mod_top.v
+hierarchy -check -top mod_top
+synth_xilinx -family xc7 -top mod_top
+tee -o reports/util_modules.txt stat
